@@ -1,0 +1,51 @@
+.aboutMeContainer {
+  height: 60vh;
+  margin-top: 200px;
+}
+
+.aboutHeading {
+  transform: rotate(-90deg);
+  font-family: 'Archivo Black', sans-serif;
+  text-align: left;
+  font-size: 120px;
+  color: rgba(255,255,255,0.4);
+  font-weight: bold;
+  height: 200px;
+  width: 700px;
+  position: absolute;
+  left: -250px;
+  top: 60px;
+}
+
+.aboutMeCol {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.aboutHeadingPara {
+  font-family: Inter, sans-serif;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.aboutImg {
+  width: 400px;
+  object-fit: contain;
+  height: 400px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.socialDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
